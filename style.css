@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+*{
+  text-align: center;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+h1{
+  font-size: 30pt;
+  margin: 20px;
+}
+p{
+  margin: 10px;
+  padding: 0;
+}
+body{
+  font-size: 20pt;
+  color: white;
+  background-image: url("anuncio.png");
+  background-repeat: no-repeat;
+  background-color: rgb(10,95,162);
+  background-position: center 0;
+}
+button, input{
+  font-size: 20px;
+}
+input{
+  width: 60pt;
+}
+#alcance{
+  position: relative;
+  top: 300px;
+}
