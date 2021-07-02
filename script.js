@@ -2,6 +2,7 @@ function CalcularAnuncios() {
 //Variáveis
 investimento = Number(document.getElementById('money').value);
 vInicial = investimento * 30;
+minCompartilhar = 56;
 fimAlcance = vTotal = vInicial;
 
 //Resultado começa vazio
@@ -16,8 +17,8 @@ alcance.innerHTML = ` `;
   }
   else {
     //Calcular os Anuncios
-    for (var compartilhar = 0; fimAlcance >= 56 && compartilhar < 4;compartilhar++){
-      fimAlcance -= 56;
+    for (var compartilhar = 0; fimAlcance >= minCompartilhar && compartilhar < 4;compartilhar++){
+      fimAlcance -= minCompartilhar;
       vTotal += 40;
     }
     //Resultado
